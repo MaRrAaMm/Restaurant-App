@@ -1,5 +1,5 @@
 import { model, Schema } from "mongoose";
-import { hash } from "../../utils/hash/hash.js";
+import { hash } from "../../Utils/hash/hash.js";
 export const genders={MALE: "male",FEMALE: "female"};
 export const roles={
     USER:"user",
